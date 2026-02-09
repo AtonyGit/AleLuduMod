@@ -71,8 +71,8 @@ public static class ModCompatibility
             var buttonTransform = panel.transform;
             buttonTransform.localScale *= 0.75f;
             buttonTransform.localPosition = new Vector3(
-                XStart + XOffset * col * 1.1f - 2.65f,
-                YStart + YOffset * row * 0.865f - 0.65f,
+                XStart + XOffset * col * 1.1f - 2.4f,
+                YStart + YOffset * row * 0.9255f - 0.65f,
                 buttonTransform.localPosition.z
             );
             i++;
